@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="This is the home page" />
       </Head>
-      <h1 className="text-3xl font-bold underline text-center">Home</h1>
+      <h1 className="text-center text-3xl font-bold underline">Home</h1>
     </>
-  )
+  );
 }
